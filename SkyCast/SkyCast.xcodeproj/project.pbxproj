@@ -6,10 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		D488D5BE2D4D536D00F445FC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D488D5BD2D4D536400F445FC /* README.md */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		D488D56A2D4AAB2300F445FC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -31,7 +27,6 @@
 		D488D5592D4AAB2100F445FC /* SkyCast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyCast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D488D5692D4AAB2300F445FC /* SkyCastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyCastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D488D5732D4AAB2300F445FC /* SkyCastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyCastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D488D5BD2D4D536400F445FC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -97,7 +92,6 @@
 				D488D56C2D4AAB2300F445FC /* SkyCastTests */,
 				D488D5762D4AAB2300F445FC /* SkyCastUITests */,
 				D488D55A2D4AAB2100F445FC /* Products */,
-				D488D5BD2D4D536400F445FC /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -231,7 +225,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D488D5BE2D4D536D00F445FC /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
