@@ -31,5 +31,9 @@ Skycast is a simple weather prediction app in SwiftUI
 |-|-|
 | <img width=100 src="screenshots/AppIcon.png"/> | <img width=100 src="screenshots/SplashScreen.png"/> |
 
+
+
+
 ## Video 
-<video width=200 src="screenshots/Video.mp4" controls width="600"></video>
+<video width=200 src="https://github.com/user-attachments/assets/a688aa66-4733-4410-8f68-8c3007c8cbea
+" controls width="600"></video>
