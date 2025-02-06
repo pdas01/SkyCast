@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D488D5BE2D4D536D00F445FC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D488D5BD2D4D536400F445FC /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D488D56A2D4AAB2300F445FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D488D5512D4AAB2100F445FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D488D5582D4AAB2100F445FC;
+			remoteInfo = SkyCast;
+		};
+		D488D5742D4AAB2300F445FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D488D5512D4AAB2100F445FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D488D5582D4AAB2100F445FC;
+			remoteInfo = SkyCast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D488D5592D4AAB2100F445FC /* SkyCast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyCast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D488D5692D4AAB2300F445FC /* SkyCastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyCastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D488D5732D4AAB2300F445FC /* SkyCastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyCastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D488D5BD2D4D536400F445FC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D488D5FA2D4D6E8200F445FC /* Exceptions for "SkyCast" folder in "SkyCast" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D488D5582D4AAB2100F445FC /* SkyCast */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D488D55B2D4AAB2100F445FC /* SkyCast */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D488D5FA2D4D6E8200F445FC /* Exceptions for "SkyCast" folder in "SkyCast" target */,
+			);
+			path = SkyCast;
+			sourceTree = "<group>";
+		};
+		D488D56C2D4AAB2300F445FC /* SkyCastTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SkyCastTests;
+			sourceTree = "<group>";
+		};
+		D488D5762D4AAB2300F445FC /* SkyCastUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SkyCastUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D488D5562D4AAB2100F445FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D488D5662D4AAB2300F445FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D488D5702D4AAB2300F445FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D488D5502D4AAB2100F445FC = {
+			isa = PBXGroup;
+			children = (
+				D488D55B2D4AAB2100F445FC /* SkyCast */,
+				D488D56C2D4AAB2300F445FC /* SkyCastTests */,
+				D488D5762D4AAB2300F445FC /* SkyCastUITests */,
+				D488D55A2D4AAB2100F445FC /* Products */,
+				D488D5BD2D4D536400F445FC /* README.md */,
+			);
+			sourceTree = "<group>";
+		};
+		D488D55A2D4AAB2100F445FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D488D5592D4AAB2100F445FC /* SkyCast.app */,
+				D488D5692D4AAB2300F445FC /* SkyCastTests.xctest */,
+				D488D5732D4AAB2300F445FC /* SkyCastUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D488D5582D4AAB2100F445FC /* SkyCast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D488D57D2D4AAB2300F445FC /* Build configuration list for PBXNativeTarget "SkyCast" */;
+			buildPhases = (
+				D488D5552D4AAB2100F445FC /* Sources */,
+				D488D5562D4AAB2100F445FC /* Frameworks */,
+				D488D5572D4AAB2100F445FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D488D55B2D4AAB2100F445FC /* SkyCast */,
+			);
+			name = SkyCast;
+			packageProductDependencies = (
+			);
+			productName = SkyCast;
+			productReference = D488D5592D4AAB2100F445FC /* SkyCast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D488D5682D4AAB2300F445FC /* SkyCastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D488D5802D4AAB2300F445FC /* Build configuration list for PBXNativeTarget "SkyCastTests" */;
+			buildPhases = (
+				D488D5652D4AAB2300F445FC /* Sources */,
+				D488D5662D4AAB2300F445FC /* Frameworks */,
+				D488D5672D4AAB2300F445FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D488D56B2D4AAB2300F445FC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D488D56C2D4AAB2300F445FC /* SkyCastTests */,
+			);
+			name = SkyCastTests;
+			packageProductDependencies = (
+			);
+			productName = SkyCastTests;
+			productReference = D488D5692D4AAB2300F445FC /* SkyCastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D488D5722D4AAB2300F445FC /* SkyCastUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D488D5832D4AAB2300F445FC /* Build configuration list for PBXNativeTarget "SkyCastUITests" */;
+			buildPhases = (
+				D488D56F2D4AAB2300F445FC /* Sources */,
+				D488D5702D4AAB2300F445FC /* Frameworks */,
+				D488D5712D4AAB2300F445FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D488D5752D4AAB2300F445FC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D488D5762D4AAB2300F445FC /* SkyCastUITests */,
+			);
+			name = SkyCastUITests;
+			packageProductDependencies = (
+			);
+			productName = SkyCastUITests;
+			productReference = D488D5732D4AAB2300F445FC /* SkyCastUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D488D5512D4AAB2100F445FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					D488D5582D4AAB2100F445FC = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					D488D5682D4AAB2300F445FC = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = D488D5582D4AAB2100F445FC;
+					};
+					D488D5722D4AAB2300F445FC = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = D488D5582D4AAB2100F445FC;
+					};
+				};
+			};
+			buildConfigurationList = D488D5542D4AAB2100F445FC /* Build configuration list for PBXProject "SkyCast" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D488D5502D4AAB2100F445FC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D488D55A2D4AAB2100F445FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D488D5582D4AAB2100F445FC /* SkyCast */,
+				D488D5682D4AAB2300F445FC /* SkyCastTests */,
+				D488D5722D4AAB2300F445FC /* SkyCastUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D488D5572D4AAB2100F445FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D488D5BE2D4D536D00F445FC /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D488D5672D4AAB2300F445FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D488D5712D4AAB2300F445FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D488D5552D4AAB2100F445FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D488D5652D4AAB2300F445FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D488D56F2D4AAB2300F445FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D488D56B2D4AAB2300F445FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D488D5582D4AAB2100F445FC /* SkyCast */;
+			targetProxy = D488D56A2D4AAB2300F445FC /* PBXContainerItemProxy */;
+		};
+		D488D5752D4AAB2300F445FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D488D5582D4AAB2100F445FC /* SkyCast */;
+			targetProxy = D488D5742D4AAB2300F445FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D488D57B2D4AAB2300F445FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D488D57C2D4AAB2300F445FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D488D57E2D4AAB2300F445FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SkyCast/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SkyCast/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = my.learning.SkyCast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D488D57F2D4AAB2300F445FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SkyCast/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SkyCast/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = my.learning.SkyCast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D488D5812D4AAB2300F445FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = my.learning.SkyCastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkyCast.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SkyCast";
+			};
+			name = Debug;
+		};
+		D488D5822D4AAB2300F445FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = my.learning.SkyCastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkyCast.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SkyCast";
+			};
+			name = Release;
+		};
+		D488D5842D4AAB2300F445FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = my.learning.SkyCastUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkyCast;
+			};
+			name = Debug;
+		};
+		D488D5852D4AAB2300F445FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = my.learning.SkyCastUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkyCast;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D488D5542D4AAB2100F445FC /* Build configuration list for PBXProject "SkyCast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D488D57B2D4AAB2300F445FC /* Debug */,
+				D488D57C2D4AAB2300F445FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D488D57D2D4AAB2300F445FC /* Build configuration list for PBXNativeTarget "SkyCast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D488D57E2D4AAB2300F445FC /* Debug */,
+				D488D57F2D4AAB2300F445FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D488D5802D4AAB2300F445FC /* Build configuration list for PBXNativeTarget "SkyCastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D488D5812D4AAB2300F445FC /* Debug */,
+				D488D5822D4AAB2300F445FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D488D5832D4AAB2300F445FC /* Build configuration list for PBXNativeTarget "SkyCastUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D488D5842D4AAB2300F445FC /* Debug */,
+				D488D5852D4AAB2300F445FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D488D5512D4AAB2100F445FC /* Project object */;
+}
